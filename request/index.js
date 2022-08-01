@@ -19,6 +19,7 @@ export const request=(params)=>{
     return new Promise((resolve,reject)=>{
         wx.request({
             ...params,
+            header:header,
             url:baseUrl+params.url,
             success:(result)=>{
                 resolve(result.data.message);

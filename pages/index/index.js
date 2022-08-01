@@ -21,7 +21,7 @@ Page({
   //获取轮播图数据
   getSwiperList(){
     // wx.request({
-    //   url: 'https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata', //开发者服务器接口地址",
+    //   url: '/home/swiperdata', //开发者服务器接口地址",
     //   success: res => {
     //     // [{image_src: "https://api-hmugo-web.itheima.net/pyg/banner1.png", open_type: "navigate", goods_id: 129, navigator_url: "/pages/goods_detail/main?goods_id=129"},
     //     // {image_src: "https://api-hmugo-web.itheima.net/pyg/banner2.png", open_type: "navigate", goods_id: 395, navigator_url: "/pages/goods_detail/main?goods_id=395"},
